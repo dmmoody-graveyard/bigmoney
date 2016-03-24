@@ -1,0 +1,11 @@
+<h1>Here are your bills</h1>
+<ul>
+  <% @bills.each do |bill| %>
+    <li>
+      Amount Due: <%= bill.amount %><br>
+      Company: <%= bill.company.name %><br>
+      Website: <%= bill.company.website %><br>
+      Password: <%= bill.company.password %>
+    </li>
+  <% end %>
+</ul>
