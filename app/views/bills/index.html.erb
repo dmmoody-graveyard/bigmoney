@@ -4,7 +4,7 @@
     <li>
       Amount Due: <%= bill.amount %><br>
       Company: <%= bill.company.name %><br>
-      Website: <%= bill.company.website %><br>
+      Website: <a href='<%= bill.company.website %>'>website</a><br>
       Password: <%= bill.company.password %>
     </li>
   <% end %>
