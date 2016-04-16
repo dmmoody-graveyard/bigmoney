@@ -24,6 +24,7 @@ gem 'devise', :github => 'plataformatec/devise', :branch => 'master'
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
   gem 'byebug'
+  gem 'meta_request'
 end
 
 group :test do
